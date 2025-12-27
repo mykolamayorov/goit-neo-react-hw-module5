@@ -1,0 +1,81 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+  color: #005fa3;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.details {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.poster {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.info {
+  flex: 1;
+}
+
+.info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.info h3 {
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.additional {
+  margin-top: 20px;
+}
+
+.castReviewsMenu {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.menuItem {
+  margin-bottom: 6px;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
+  color: #005fa3;
+}
+
+.menuLink.active {
+  color: #005fa3;
+  text-decoration: underline;
+}

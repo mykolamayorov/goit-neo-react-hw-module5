@@ -1,0 +1,21 @@
+.list {
+  padding-left: 20px;
+  list-style-type: disc;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 20px 0 20px 20px;
+}
+
+.item {
+  margin-bottom: 6px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #0077cc;
+  font-size: 16px;
+}
+
+.link:hover {
+  color: #005fa3;
+}

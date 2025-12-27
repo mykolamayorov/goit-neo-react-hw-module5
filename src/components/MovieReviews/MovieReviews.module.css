@@ -1,0 +1,23 @@
+.container {
+  padding: 20px 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+h4 {
+  margin: 0 0 5px 0;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
